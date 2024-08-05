@@ -1,6 +1,6 @@
 services:
   discordnotifier:
-    image: discord_notifier:latest
+    image: sukeee/palworld-discord-notify:latest
     #environment:
      # - DATABASE_CONNECTION_STRING=Server=192.168.100.84;Database=db-palworld-pvp-insiderhub;Uid=PalAdm;Pwd=sukelord;SslMode=none;
     restart: unless-stopped
