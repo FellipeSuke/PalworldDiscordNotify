@@ -33,4 +33,4 @@ RUN apt-get update && \
 RUN mysql --version
 
 # Define the entry point for the container
-ENTRYPOINT ["dotnet", "DiscordNotifier.dll"]
+ENTRYPOINT ["dotnet", "PalworldDiscordNotify.dll"]
